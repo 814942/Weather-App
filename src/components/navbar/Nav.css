@@ -1,0 +1,50 @@
+.logoHenry {
+  margin-right: 20px;
+
+  border-style: dashed;
+  border-color: #c5cbd6;
+}
+
+.outer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #0f1013 50%, #282c34 50%);
+  height: 5rem;
+  background-size: 10px 10px, 10px 10px;
+  padding: 5px;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: whitesmoke;
+}
+
+h1 {
+  color: #00d4ff;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.btn-a {
+  font-size: 26px;
+  background: #282c34;
+  color: #00d4ff;
+  border: 4px solid #00d4ff;
+  padding: 5px 20px;
+  border-radius: 10%;
+  cursor: pointer;
+  box-shadow: 2px 2px 7px 1px rgba(0, 212, 255, 0.55);
+}
+
+.btn-a:hover {
+  font-size: 26px;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px 20px;
+
+  background-color: #00d4ff;
+}
